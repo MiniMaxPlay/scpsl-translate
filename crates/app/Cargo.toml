@@ -1,0 +1,18 @@
+[package]
+name = "scpsl-subs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+ctrlc.workspace = true
+rtrb.workspace = true
+scpsl-audio = { path = "../audio" }
+tracing.workspace = true
+tracing-appender.workspace = true
+tracing-subscriber.workspace = true
+
+[[bin]]
+name = "scpsl-subs"
+path = "src/main.rs"

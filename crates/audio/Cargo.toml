@@ -1,0 +1,13 @@
+[package]
+name = "scpsl-audio"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow.workspace = true
+hound.workspace = true
+rtrb.workspace = true
+thiserror.workspace = true
+tracing.workspace = true
+wasapi.workspace = true
+windows.workspace = true

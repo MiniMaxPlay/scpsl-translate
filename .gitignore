@@ -1,0 +1,11 @@
+/target/
+/logs/
+/corpus/
+/vendor/
+/docs/*.pdf
+*.wav
+*.rs.bk
+*.onnx
+*.dll
+.DS_Store
+Thumbs.db
